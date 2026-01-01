@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 @app.route("/")
 def welcome():
-    return "<h1>Congrats for Github action</h1>"
+    return "Congrats for Github action"
 
 
 if __name__=="__main__":
